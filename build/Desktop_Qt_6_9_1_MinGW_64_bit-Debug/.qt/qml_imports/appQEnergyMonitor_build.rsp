@@ -1,0 +1,15 @@
+-rootPath
+C:/Users/tessa/Documents/QEnergyMonitor
+-cmake-output
+-output-file
+C:/Users/tessa/Documents/QEnergyMonitor/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.qt/qml_imports/appQEnergyMonitor_build.cmake
+-importPath
+C:/Users/tessa/Documents/QEnergyMonitor/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/QEnergyMonitor
+-importPath
+C:/Users/tessa/Documents/QEnergyMonitor/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug
+-importPath
+C:/Qt/6.9.1/mingw_64/qml
+-qrcFiles
+C:/Users/tessa/Documents/QEnergyMonitor/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.qt/rcc/qmake_QEnergyMonitor.qrc
+C:/Users/tessa/Documents/QEnergyMonitor/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.qt/rcc/qmake_QEnergyMonitor_copy.qrc
+C:/Users/tessa/Documents/QEnergyMonitor/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.qt/rcc/appQEnergyMonitor_raw_qml_0.qrc

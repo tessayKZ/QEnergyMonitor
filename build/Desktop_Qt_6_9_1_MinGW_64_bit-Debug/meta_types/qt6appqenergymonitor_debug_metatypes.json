@@ -1,0 +1,146 @@
+[
+    {
+        "classes": [
+            {
+                "className": "EnergyMonitorSimulator",
+                "lineNumber": 5,
+                "methods": [
+                    {
+                        "access": "public",
+                        "index": 6,
+                        "name": "startSimulation",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 7,
+                        "name": "stopSimulation",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "currentVoltage",
+                        "notify": "currentVoltageChanged",
+                        "read": "currentVoltage",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "name": "currentAmperage",
+                        "notify": "currentAmperageChanged",
+                        "read": "currentAmperage",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "name": "powerConsumption",
+                        "notify": "powerConsumptionChanged",
+                        "read": "powerConsumption",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 3,
+                        "name": "energyUsage",
+                        "notify": "energyUsageChanged",
+                        "read": "energyUsage",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 4,
+                        "name": "systemStatus",
+                        "notify": "systemStatusChanged",
+                        "read": "systemStatus",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    }
+                ],
+                "qualifiedClassName": "EnergyMonitorSimulator",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "name": "currentVoltageChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "name": "currentAmperageChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 2,
+                        "name": "powerConsumptionChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 3,
+                        "name": "energyUsageChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 4,
+                        "name": "systemStatusChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "private",
+                        "index": 5,
+                        "name": "updateValues",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "energyMonitorSimulator.h",
+        "outputRevision": 69
+    }
+]

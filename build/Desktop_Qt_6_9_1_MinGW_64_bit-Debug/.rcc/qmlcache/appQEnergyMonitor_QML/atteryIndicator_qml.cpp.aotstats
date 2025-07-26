@@ -1,0 +1,68 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": false,
+                        "column": 20,
+                        "durationMicroseconds": 292,
+                        "errorMessage": "Cannot access value for name level",
+                        "functionName": "width",
+                        "line": 14
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 21,
+                        "durationMicroseconds": 255,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 15
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 20,
+                        "durationMicroseconds": 165,
+                        "errorMessage": "Cannot access value for name level",
+                        "functionName": "color",
+                        "line": 16
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 12,
+                        "durationMicroseconds": 87,
+                        "errorMessage": "",
+                        "functionName": "x",
+                        "line": 24
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 33,
+                        "durationMicroseconds": 127,
+                        "errorMessage": "",
+                        "functionName": "verticalCenter",
+                        "line": 25
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 15,
+                        "durationMicroseconds": 59,
+                        "errorMessage": "Cannot access value for name level",
+                        "functionName": "text",
+                        "line": 31
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 110,
+                        "errorMessage": "",
+                        "functionName": "left",
+                        "line": 30
+                    }
+                ],
+                "filePath": "C:/Users/tessa/Documents/QEnergyMonitor/qml/atteryIndicator.qml"
+            }
+        ],
+        "moduleId": "QEnergyMonitor(appQEnergyMonitor)"
+    }
+]

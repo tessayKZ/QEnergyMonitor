@@ -1,0 +1,68 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": true,
+                        "column": 17,
+                        "durationMicroseconds": 229,
+                        "errorMessage": "",
+                        "functionName": "radius",
+                        "line": 11
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 50,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 9
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 72,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 14
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 21,
+                        "durationMicroseconds": 42,
+                        "errorMessage": "Cannot access value for name value",
+                        "functionName": "height",
+                        "line": 15
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 29,
+                        "durationMicroseconds": 96,
+                        "errorMessage": "",
+                        "functionName": "bottom",
+                        "line": 16
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 15,
+                        "durationMicroseconds": 29,
+                        "errorMessage": "Cannot access value for name value",
+                        "functionName": "text",
+                        "line": 23
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 27,
+                        "durationMicroseconds": 39,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 22
+                    }
+                ],
+                "filePath": "C:/Users/tessa/Documents/QEnergyMonitor/qml/CurrentGauge.qml"
+            }
+        ],
+        "moduleId": "QEnergyMonitor(appQEnergyMonitor)"
+    }
+]

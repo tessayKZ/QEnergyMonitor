@@ -1,0 +1,11 @@
+<RCC>
+  <!-- Делаем ровно тот префикс, по которому грузим в main.cpp -->
+  <qresource prefix="/qml">
+    <file>Main.qml</file>
+    <file>voltageGauge.qml</file>
+    <file>currentGauge.qml</file>
+    <file>animatedCounter.qml</file>
+    <file>batteryIndicator.qml</file>
+    <file>systemStatusIndicator.qml</file>
+  </qresource>
+</RCC>

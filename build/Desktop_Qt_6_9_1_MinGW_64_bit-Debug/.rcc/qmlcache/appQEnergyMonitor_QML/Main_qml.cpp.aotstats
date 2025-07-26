@@ -1,0 +1,92 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 200,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 13
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 35,
+                        "durationMicroseconds": 39,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: simulator",
+                        "functionName": "value",
+                        "line": 16
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 35,
+                        "durationMicroseconds": 25,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: simulator",
+                        "functionName": "value",
+                        "line": 17
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 22,
+                        "durationMicroseconds": 36,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: simulator",
+                        "functionName": "text",
+                        "line": 20
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 34,
+                        "durationMicroseconds": 14,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: simulator",
+                        "functionName": "value",
+                        "line": 22
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 35,
+                        "durationMicroseconds": 33,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: simulator",
+                        "functionName": "level",
+                        "line": 24
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 41,
+                        "durationMicroseconds": 17,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: simulator",
+                        "functionName": "status",
+                        "line": 26
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 54,
+                        "durationMicroseconds": 98,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 28
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 58,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find signal \"clicked\".",
+                        "functionName": "onClicked",
+                        "line": 29
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 57,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find signal \"clicked\".",
+                        "functionName": "onClicked",
+                        "line": 30
+                    }
+                ],
+                "filePath": "C:/Users/tessa/Documents/QEnergyMonitor/qml/Main.qml"
+            }
+        ],
+        "moduleId": "QEnergyMonitor(appQEnergyMonitor)"
+    }
+]

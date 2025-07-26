@@ -1,0 +1,68 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": false,
+                        "column": 20,
+                        "durationMicroseconds": 114,
+                        "errorMessage": "Cannot access value for name level",
+                        "functionName": "width",
+                        "line": 14
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 21,
+                        "durationMicroseconds": 155,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 15
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 20,
+                        "durationMicroseconds": 137,
+                        "errorMessage": "Cannot access value for name level",
+                        "functionName": "color",
+                        "line": 16
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 12,
+                        "durationMicroseconds": 71,
+                        "errorMessage": "",
+                        "functionName": "x",
+                        "line": 24
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 33,
+                        "durationMicroseconds": 125,
+                        "errorMessage": "",
+                        "functionName": "verticalCenter",
+                        "line": 25
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 15,
+                        "durationMicroseconds": 56,
+                        "errorMessage": "Cannot access value for name level",
+                        "functionName": "text",
+                        "line": 31
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 108,
+                        "errorMessage": "",
+                        "functionName": "left",
+                        "line": 30
+                    }
+                ],
+                "filePath": "C:/Users/tessa/Documents/QEnergyMonitor/qml/BatteryIndicator.qml"
+            }
+        ],
+        "moduleId": "QEnergyMonitor(appQEnergyMonitor)"
+    }
+]

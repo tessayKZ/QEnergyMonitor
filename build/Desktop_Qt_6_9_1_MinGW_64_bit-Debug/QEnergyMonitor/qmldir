@@ -1,0 +1,10 @@
+module QEnergyMonitor
+typeinfo appQEnergyMonitor.qmltypes
+prefer :/
+Main 1.0 qml/Main.qml
+VoltageGauge 1.0 qml/VoltageGauge.qml
+CurrentGauge 1.0 qml/CurrentGauge.qml
+AnimatedCounter 1.0 qml/AnimatedCounter.qml
+BatteryIndicator 1.0 qml/BatteryIndicator.qml
+SystemStatusIndicator 1.0 qml/SystemStatusIndicator.qml
+

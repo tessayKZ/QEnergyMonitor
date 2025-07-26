@@ -1,0 +1,12 @@
+--resource
+C:/Users/tessa/Documents/QEnergyMonitor/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.qt/rcc/qmake_QEnergyMonitor.qrc
+--resource
+C:/Users/tessa/Documents/QEnergyMonitor/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.qt/rcc/qmake_QEnergyMonitor_copy.qrc
+--resource
+C:/Users/tessa/Documents/QEnergyMonitor/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/.qt/rcc/appQEnergyMonitor_raw_qml_0.qrc
+/qml/Main.qml
+/qml/VoltageGauge.qml
+/qml/CurrentGauge.qml
+/qml/AnimatedCounter.qml
+/qml/BatteryIndicator.qml
+/qml/SystemStatusIndicator.qml

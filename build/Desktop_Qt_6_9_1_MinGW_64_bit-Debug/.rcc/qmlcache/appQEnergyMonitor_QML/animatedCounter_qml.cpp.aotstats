@@ -1,0 +1,36 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": true,
+                        "column": 12,
+                        "durationMicroseconds": 147,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 7
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 35,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 7
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 15,
+                        "durationMicroseconds": 65,
+                        "errorMessage": "Cannot access value for name prefix",
+                        "functionName": "text",
+                        "line": 11
+                    }
+                ],
+                "filePath": "C:/Users/tessa/Documents/QEnergyMonitor/qml/AnimatedCounter.qml"
+            }
+        ],
+        "moduleId": "QEnergyMonitor(appQEnergyMonitor)"
+    }
+]
