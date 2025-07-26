@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 17,
-                        "durationMicroseconds": 229,
+                        "durationMicroseconds": 359,
                         "errorMessage": "",
                         "functionName": "radius",
                         "line": 11
@@ -14,7 +14,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 23,
-                        "durationMicroseconds": 50,
+                        "durationMicroseconds": 107,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 9
@@ -22,7 +22,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 20,
-                        "durationMicroseconds": 72,
+                        "durationMicroseconds": 122,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 14
@@ -30,7 +30,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 21,
-                        "durationMicroseconds": 42,
+                        "durationMicroseconds": 66,
                         "errorMessage": "Cannot access value for name value",
                         "functionName": "height",
                         "line": 15
@@ -38,7 +38,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 29,
-                        "durationMicroseconds": 96,
+                        "durationMicroseconds": 115,
                         "errorMessage": "",
                         "functionName": "bottom",
                         "line": 16
@@ -46,7 +46,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 15,
-                        "durationMicroseconds": 29,
+                        "durationMicroseconds": 61,
                         "errorMessage": "Cannot access value for name value",
                         "functionName": "text",
                         "line": 23
@@ -54,7 +54,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 27,
-                        "durationMicroseconds": 39,
+                        "durationMicroseconds": 85,
                         "errorMessage": "",
                         "functionName": "centerIn",
                         "line": 22

@@ -1,0 +1,28 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": false,
+                        "column": 11,
+                        "durationMicroseconds": 430,
+                        "errorMessage": "Cannot generate efficient code for call to untyped JavaScript function",
+                        "functionName": "text",
+                        "line": 9
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 70,
+                        "durationMicroseconds": 84,
+                        "errorMessage": "",
+                        "functionName": "type",
+                        "line": 8
+                    }
+                ],
+                "filePath": "C:/Users/tessa/Documents/QEnergyMonitor/qml/EnergyCounter.qml"
+            }
+        ],
+        "moduleId": "QEnergyMonitor(appQEnergyMonitor)"
+    }
+]

@@ -3,18 +3,24 @@
         "classes": [
             {
                 "className": "EnergyMonitorSimulator",
-                "lineNumber": 5,
+                "lineNumber": 6,
                 "methods": [
                     {
                         "access": "public",
-                        "index": 6,
+                        "index": 5,
                         "name": "startSimulation",
                         "returnType": "void"
                     },
                     {
                         "access": "public",
-                        "index": 7,
+                        "index": 6,
                         "name": "stopSimulation",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 7,
+                        "name": "resetEnergyUsage",
                         "returnType": "void"
                     }
                 ],
@@ -95,40 +101,62 @@
                 "signals": [
                     {
                         "access": "public",
+                        "arguments": [
+                            {
+                                "name": "newVoltage",
+                                "type": "double"
+                            }
+                        ],
                         "index": 0,
                         "name": "currentVoltageChanged",
                         "returnType": "void"
                     },
                     {
                         "access": "public",
+                        "arguments": [
+                            {
+                                "name": "newAmperage",
+                                "type": "double"
+                            }
+                        ],
                         "index": 1,
                         "name": "currentAmperageChanged",
                         "returnType": "void"
                     },
                     {
                         "access": "public",
+                        "arguments": [
+                            {
+                                "name": "newPower",
+                                "type": "double"
+                            }
+                        ],
                         "index": 2,
                         "name": "powerConsumptionChanged",
                         "returnType": "void"
                     },
                     {
                         "access": "public",
+                        "arguments": [
+                            {
+                                "name": "newEnergy",
+                                "type": "double"
+                            }
+                        ],
                         "index": 3,
                         "name": "energyUsageChanged",
                         "returnType": "void"
                     },
                     {
                         "access": "public",
+                        "arguments": [
+                            {
+                                "name": "newStatus",
+                                "type": "QString"
+                            }
+                        ],
                         "index": 4,
                         "name": "systemStatusChanged",
-                        "returnType": "void"
-                    }
-                ],
-                "slots": [
-                    {
-                        "access": "private",
-                        "index": 5,
-                        "name": "updateValues",
                         "returnType": "void"
                     }
                 ],

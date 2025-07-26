@@ -6,58 +6,50 @@
                     {
                         "codegenSuccessful": false,
                         "column": 20,
-                        "durationMicroseconds": 114,
-                        "errorMessage": "Cannot access value for name level",
+                        "durationMicroseconds": 162,
+                        "errorMessage": "Cannot access value for name percentage",
                         "functionName": "width",
-                        "line": 14
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 21,
-                        "durationMicroseconds": 155,
-                        "errorMessage": "",
-                        "functionName": "height",
-                        "line": 15
+                        "line": 12
                     },
                     {
                         "codegenSuccessful": false,
                         "column": 20,
-                        "durationMicroseconds": 137,
-                        "errorMessage": "Cannot access value for name level",
+                        "durationMicroseconds": 64,
+                        "errorMessage": "Cannot access value for name percentage",
                         "functionName": "color",
-                        "line": 16
+                        "line": 13
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 12,
-                        "durationMicroseconds": 71,
+                        "column": 27,
+                        "durationMicroseconds": 176,
                         "errorMessage": "",
-                        "functionName": "x",
-                        "line": 24
+                        "functionName": "left",
+                        "line": 11
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 33,
-                        "durationMicroseconds": 125,
+                        "column": 53,
+                        "durationMicroseconds": 67,
                         "errorMessage": "",
-                        "functionName": "verticalCenter",
-                        "line": 25
+                        "functionName": "top",
+                        "line": 11
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 81,
+                        "durationMicroseconds": 61,
+                        "errorMessage": "",
+                        "functionName": "bottom",
+                        "line": 11
                     },
                     {
                         "codegenSuccessful": false,
-                        "column": 15,
-                        "durationMicroseconds": 56,
-                        "errorMessage": "Cannot access value for name level",
+                        "column": 18,
+                        "durationMicroseconds": 33,
+                        "errorMessage": "Cannot access value for name percentage",
                         "functionName": "text",
-                        "line": 31
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 23,
-                        "durationMicroseconds": 108,
-                        "errorMessage": "",
-                        "functionName": "left",
-                        "line": 30
+                        "line": 18
                     }
                 ],
                 "filePath": "C:/Users/tessa/Documents/QEnergyMonitor/qml/BatteryIndicator.qml"

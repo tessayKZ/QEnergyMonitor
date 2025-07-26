@@ -2,10 +2,10 @@
   <qresource prefix="/">
     <file alias="qml/Main.qml">C:/Users/tessa/Documents/QEnergyMonitor/qml/Main.qml</file>
     <file alias="qml/VoltageGauge.qml">C:/Users/tessa/Documents/QEnergyMonitor/qml/VoltageGauge.qml</file>
-    <file alias="qml/CurrentGauge.qml">C:/Users/tessa/Documents/QEnergyMonitor/qml/CurrentGauge.qml</file>
-    <file alias="qml/AnimatedCounter.qml">C:/Users/tessa/Documents/QEnergyMonitor/qml/AnimatedCounter.qml</file>
+    <file alias="qml/AmperageGauge.qml">C:/Users/tessa/Documents/QEnergyMonitor/qml/AmperageGauge.qml</file>
+    <file alias="qml/EnergyCounter.qml">C:/Users/tessa/Documents/QEnergyMonitor/qml/EnergyCounter.qml</file>
     <file alias="qml/BatteryIndicator.qml">C:/Users/tessa/Documents/QEnergyMonitor/qml/BatteryIndicator.qml</file>
-    <file alias="qml/SystemStatusIndicator.qml">C:/Users/tessa/Documents/QEnergyMonitor/qml/SystemStatusIndicator.qml</file>
+    <file alias="qml/StatusIndicator.qml">C:/Users/tessa/Documents/QEnergyMonitor/qml/StatusIndicator.qml</file>
   </qresource>
 </RCC>
 

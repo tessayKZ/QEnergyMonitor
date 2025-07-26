@@ -1,0 +1,195 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "QEnergyMonitor",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_aotstats::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_aotstats-Debug-69966a1006621943a227.json",
+					"name" : "all_aotstats",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-e8716e3d6658c91b975a.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-4a83f3c6dc8ff59ff969.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-ea2ec6617ac5270a6522.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-d7a68e55828ebef8bbdb.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appQEnergyMonitor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appQEnergyMonitor-Debug-62e67a495b4e30f58077.json",
+					"name" : "appQEnergyMonitor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appQEnergyMonitor_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appQEnergyMonitor_autogen-Debug-f9bbf2cba11c008bc611.json",
+					"name" : "appQEnergyMonitor_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appQEnergyMonitor_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appQEnergyMonitor_autogen_timestamp_deps-Debug-d0ce8bf1c61e71c6713c.json",
+					"name" : "appQEnergyMonitor_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appQEnergyMonitor_copy_qml::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appQEnergyMonitor_copy_qml-Debug-d3011ad5a81cd05390a0.json",
+					"name" : "appQEnergyMonitor_copy_qml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appQEnergyMonitor_copy_res::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appQEnergyMonitor_copy_res-Debug-653e8659a350ea22af68.json",
+					"name" : "appQEnergyMonitor_copy_res",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appQEnergyMonitor_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appQEnergyMonitor_qmlimportscan-Debug-f54b91955679fba1c539.json",
+					"name" : "appQEnergyMonitor_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appQEnergyMonitor_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appQEnergyMonitor_qmllint-Debug-ba309c353382399e9e3c.json",
+					"name" : "appQEnergyMonitor_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appQEnergyMonitor_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appQEnergyMonitor_qmllint_json-Debug-921c24879b6ff5c33a5a.json",
+					"name" : "appQEnergyMonitor_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appQEnergyMonitor_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appQEnergyMonitor_qmllint_module-Debug-7c709db2d4ca038f12fa.json",
+					"name" : "appQEnergyMonitor_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appQEnergyMonitor_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appQEnergyMonitor_qmltyperegistration-Debug-3a57f58b36e7ecb7c04c.json",
+					"name" : "appQEnergyMonitor_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module_appQEnergyMonitor_aotstats_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module_appQEnergyMonitor_aotstats_target-Debug-e1af9c67cbe243c92a77.json",
+					"name" : "module_appQEnergyMonitor_aotstats_target",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/tessa/Documents/QEnergyMonitor/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug",
+		"source" : "C:/Users/tessa/Documents/QEnergyMonitor"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

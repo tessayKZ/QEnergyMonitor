@@ -1,5 +1,6 @@
 appQEnergyMonitor_autogen/timestamp: \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/QObject \
+	C:/Qt/6.9.1/mingw_64/include/QtCore/QString \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/QTimer \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/q17memory.h \
 	C:/Qt/6.9.1/mingw_64/include/QtCore/q20functional.h \

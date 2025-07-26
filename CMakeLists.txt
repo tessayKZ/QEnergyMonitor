@@ -25,10 +25,10 @@ qt_add_qml_module(appQEnergyMonitor
     QML_FILES
         qml/Main.qml
         qml/VoltageGauge.qml
-        qml/CurrentGauge.qml
-        qml/AnimatedCounter.qml
+        qml/AmperageGauge.qml
+        qml/EnergyCounter.qml
         qml/BatteryIndicator.qml
-        qml/SystemStatusIndicator.qml
+        qml/StatusIndicator.qml
     NO_RESOURCE_TARGET_PATH
 )
 

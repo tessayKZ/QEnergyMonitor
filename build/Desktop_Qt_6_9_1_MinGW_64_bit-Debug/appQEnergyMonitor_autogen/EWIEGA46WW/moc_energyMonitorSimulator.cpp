@@ -41,13 +41,18 @@ template <> constexpr inline auto EnergyMonitorSimulator::qt_create_metaobjectda
         "EnergyMonitorSimulator",
         "currentVoltageChanged",
         "",
+        "newVoltage",
         "currentAmperageChanged",
+        "newAmperage",
         "powerConsumptionChanged",
+        "newPower",
         "energyUsageChanged",
+        "newEnergy",
         "systemStatusChanged",
-        "updateValues",
+        "newStatus",
         "startSimulation",
         "stopSimulation",
+        "resetEnergyUsage",
         "currentVoltage",
         "currentAmperage",
         "powerConsumption",
@@ -57,33 +62,43 @@ template <> constexpr inline auto EnergyMonitorSimulator::qt_create_metaobjectda
 
     QtMocHelpers::UintData qt_methods {
         // Signal 'currentVoltageChanged'
-        QtMocHelpers::SignalData<void()>(1, 2, QMC::AccessPublic, QMetaType::Void),
+        QtMocHelpers::SignalData<void(double)>(1, 2, QMC::AccessPublic, QMetaType::Void, {{
+            { QMetaType::Double, 3 },
+        }}),
         // Signal 'currentAmperageChanged'
-        QtMocHelpers::SignalData<void()>(3, 2, QMC::AccessPublic, QMetaType::Void),
+        QtMocHelpers::SignalData<void(double)>(4, 2, QMC::AccessPublic, QMetaType::Void, {{
+            { QMetaType::Double, 5 },
+        }}),
         // Signal 'powerConsumptionChanged'
-        QtMocHelpers::SignalData<void()>(4, 2, QMC::AccessPublic, QMetaType::Void),
+        QtMocHelpers::SignalData<void(double)>(6, 2, QMC::AccessPublic, QMetaType::Void, {{
+            { QMetaType::Double, 7 },
+        }}),
         // Signal 'energyUsageChanged'
-        QtMocHelpers::SignalData<void()>(5, 2, QMC::AccessPublic, QMetaType::Void),
+        QtMocHelpers::SignalData<void(double)>(8, 2, QMC::AccessPublic, QMetaType::Void, {{
+            { QMetaType::Double, 9 },
+        }}),
         // Signal 'systemStatusChanged'
-        QtMocHelpers::SignalData<void()>(6, 2, QMC::AccessPublic, QMetaType::Void),
-        // Slot 'updateValues'
-        QtMocHelpers::SlotData<void()>(7, 2, QMC::AccessPrivate, QMetaType::Void),
+        QtMocHelpers::SignalData<void(const QString &)>(10, 2, QMC::AccessPublic, QMetaType::Void, {{
+            { QMetaType::QString, 11 },
+        }}),
         // Method 'startSimulation'
-        QtMocHelpers::MethodData<void()>(8, 2, QMC::AccessPublic, QMetaType::Void),
+        QtMocHelpers::MethodData<void()>(12, 2, QMC::AccessPublic, QMetaType::Void),
         // Method 'stopSimulation'
-        QtMocHelpers::MethodData<void()>(9, 2, QMC::AccessPublic, QMetaType::Void),
+        QtMocHelpers::MethodData<void()>(13, 2, QMC::AccessPublic, QMetaType::Void),
+        // Method 'resetEnergyUsage'
+        QtMocHelpers::MethodData<void()>(14, 2, QMC::AccessPublic, QMetaType::Void),
     };
     QtMocHelpers::UintData qt_properties {
         // property 'currentVoltage'
-        QtMocHelpers::PropertyData<double>(10, QMetaType::Double, QMC::DefaultPropertyFlags, 0),
+        QtMocHelpers::PropertyData<double>(15, QMetaType::Double, QMC::DefaultPropertyFlags, 0),
         // property 'currentAmperage'
-        QtMocHelpers::PropertyData<double>(11, QMetaType::Double, QMC::DefaultPropertyFlags, 1),
+        QtMocHelpers::PropertyData<double>(16, QMetaType::Double, QMC::DefaultPropertyFlags, 1),
         // property 'powerConsumption'
-        QtMocHelpers::PropertyData<double>(12, QMetaType::Double, QMC::DefaultPropertyFlags, 2),
+        QtMocHelpers::PropertyData<double>(17, QMetaType::Double, QMC::DefaultPropertyFlags, 2),
         // property 'energyUsage'
-        QtMocHelpers::PropertyData<double>(13, QMetaType::Double, QMC::DefaultPropertyFlags, 3),
+        QtMocHelpers::PropertyData<double>(18, QMetaType::Double, QMC::DefaultPropertyFlags, 3),
         // property 'systemStatus'
-        QtMocHelpers::PropertyData<QString>(14, QMetaType::QString, QMC::DefaultPropertyFlags, 4),
+        QtMocHelpers::PropertyData<QString>(19, QMetaType::QString, QMC::DefaultPropertyFlags, 4),
     };
     QtMocHelpers::UintData qt_enums {
     };
@@ -105,27 +120,27 @@ void EnergyMonitorSimulator::qt_static_metacall(QObject *_o, QMetaObject::Call _
     auto *_t = static_cast<EnergyMonitorSimulator *>(_o);
     if (_c == QMetaObject::InvokeMetaMethod) {
         switch (_id) {
-        case 0: _t->currentVoltageChanged(); break;
-        case 1: _t->currentAmperageChanged(); break;
-        case 2: _t->powerConsumptionChanged(); break;
-        case 3: _t->energyUsageChanged(); break;
-        case 4: _t->systemStatusChanged(); break;
-        case 5: _t->updateValues(); break;
-        case 6: _t->startSimulation(); break;
-        case 7: _t->stopSimulation(); break;
+        case 0: _t->currentVoltageChanged((*reinterpret_cast< std::add_pointer_t<double>>(_a[1]))); break;
+        case 1: _t->currentAmperageChanged((*reinterpret_cast< std::add_pointer_t<double>>(_a[1]))); break;
+        case 2: _t->powerConsumptionChanged((*reinterpret_cast< std::add_pointer_t<double>>(_a[1]))); break;
+        case 3: _t->energyUsageChanged((*reinterpret_cast< std::add_pointer_t<double>>(_a[1]))); break;
+        case 4: _t->systemStatusChanged((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1]))); break;
+        case 5: _t->startSimulation(); break;
+        case 6: _t->stopSimulation(); break;
+        case 7: _t->resetEnergyUsage(); break;
         default: ;
         }
     }
     if (_c == QMetaObject::IndexOfMethod) {
-        if (QtMocHelpers::indexOfMethod<void (EnergyMonitorSimulator::*)()>(_a, &EnergyMonitorSimulator::currentVoltageChanged, 0))
+        if (QtMocHelpers::indexOfMethod<void (EnergyMonitorSimulator::*)(double )>(_a, &EnergyMonitorSimulator::currentVoltageChanged, 0))
             return;
-        if (QtMocHelpers::indexOfMethod<void (EnergyMonitorSimulator::*)()>(_a, &EnergyMonitorSimulator::currentAmperageChanged, 1))
+        if (QtMocHelpers::indexOfMethod<void (EnergyMonitorSimulator::*)(double )>(_a, &EnergyMonitorSimulator::currentAmperageChanged, 1))
             return;
-        if (QtMocHelpers::indexOfMethod<void (EnergyMonitorSimulator::*)()>(_a, &EnergyMonitorSimulator::powerConsumptionChanged, 2))
+        if (QtMocHelpers::indexOfMethod<void (EnergyMonitorSimulator::*)(double )>(_a, &EnergyMonitorSimulator::powerConsumptionChanged, 2))
             return;
-        if (QtMocHelpers::indexOfMethod<void (EnergyMonitorSimulator::*)()>(_a, &EnergyMonitorSimulator::energyUsageChanged, 3))
+        if (QtMocHelpers::indexOfMethod<void (EnergyMonitorSimulator::*)(double )>(_a, &EnergyMonitorSimulator::energyUsageChanged, 3))
             return;
-        if (QtMocHelpers::indexOfMethod<void (EnergyMonitorSimulator::*)()>(_a, &EnergyMonitorSimulator::systemStatusChanged, 4))
+        if (QtMocHelpers::indexOfMethod<void (EnergyMonitorSimulator::*)(const QString & )>(_a, &EnergyMonitorSimulator::systemStatusChanged, 4))
             return;
     }
     if (_c == QMetaObject::ReadProperty) {
@@ -179,32 +194,32 @@ int EnergyMonitorSimulator::qt_metacall(QMetaObject::Call _c, int _id, void **_a
 }
 
 // SIGNAL 0
-void EnergyMonitorSimulator::currentVoltageChanged()
+void EnergyMonitorSimulator::currentVoltageChanged(double _t1)
 {
-    QMetaObject::activate(this, &staticMetaObject, 0, nullptr);
+    QMetaObject::activate<void>(this, &staticMetaObject, 0, nullptr, _t1);
 }
 
 // SIGNAL 1
-void EnergyMonitorSimulator::currentAmperageChanged()
+void EnergyMonitorSimulator::currentAmperageChanged(double _t1)
 {
-    QMetaObject::activate(this, &staticMetaObject, 1, nullptr);
+    QMetaObject::activate<void>(this, &staticMetaObject, 1, nullptr, _t1);
 }
 
 // SIGNAL 2
-void EnergyMonitorSimulator::powerConsumptionChanged()
+void EnergyMonitorSimulator::powerConsumptionChanged(double _t1)
 {
-    QMetaObject::activate(this, &staticMetaObject, 2, nullptr);
+    QMetaObject::activate<void>(this, &staticMetaObject, 2, nullptr, _t1);
 }
 
 // SIGNAL 3
-void EnergyMonitorSimulator::energyUsageChanged()
+void EnergyMonitorSimulator::energyUsageChanged(double _t1)
 {
-    QMetaObject::activate(this, &staticMetaObject, 3, nullptr);
+    QMetaObject::activate<void>(this, &staticMetaObject, 3, nullptr, _t1);
 }
 
 // SIGNAL 4
-void EnergyMonitorSimulator::systemStatusChanged()
+void EnergyMonitorSimulator::systemStatusChanged(const QString & _t1)
 {
-    QMetaObject::activate(this, &staticMetaObject, 4, nullptr);
+    QMetaObject::activate<void>(this, &staticMetaObject, 4, nullptr, _t1);
 }
 QT_WARNING_POP

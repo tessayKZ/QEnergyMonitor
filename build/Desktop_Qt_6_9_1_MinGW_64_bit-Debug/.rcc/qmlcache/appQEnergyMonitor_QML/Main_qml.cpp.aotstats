@@ -5,83 +5,139 @@
                 "entries": [
                     {
                         "codegenSuccessful": true,
-                        "column": 23,
-                        "durationMicroseconds": 200,
+                        "column": 21,
+                        "durationMicroseconds": 311,
                         "errorMessage": "",
-                        "functionName": "fill",
-                        "line": 13
+                        "functionName": "theme",
+                        "line": 15
                     },
                     {
-                        "codegenSuccessful": false,
-                        "column": 35,
-                        "durationMicroseconds": 39,
-                        "errorMessage": "Cannot retrieve a non-object type by ID: simulator",
-                        "functionName": "value",
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 116,
+                        "errorMessage": "",
+                        "functionName": "primary",
                         "line": 16
                     },
                     {
-                        "codegenSuccessful": false,
-                        "column": 35,
-                        "durationMicroseconds": 25,
-                        "errorMessage": "Cannot retrieve a non-object type by ID: simulator",
-                        "functionName": "value",
+                        "codegenSuccessful": true,
+                        "column": 22,
+                        "durationMicroseconds": 89,
+                        "errorMessage": "",
+                        "functionName": "accent",
                         "line": 17
                     },
                     {
-                        "codegenSuccessful": false,
-                        "column": 22,
-                        "durationMicroseconds": 36,
-                        "errorMessage": "Cannot retrieve a non-object type by ID: simulator",
-                        "functionName": "text",
-                        "line": 20
-                    },
-                    {
-                        "codegenSuccessful": false,
-                        "column": 34,
-                        "durationMicroseconds": 14,
-                        "errorMessage": "Cannot retrieve a non-object type by ID: simulator",
-                        "functionName": "value",
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 45,
+                        "errorMessage": "",
+                        "functionName": "fill",
                         "line": 22
                     },
                     {
                         "codegenSuccessful": false,
                         "column": 35,
-                        "durationMicroseconds": 33,
-                        "errorMessage": "Cannot retrieve a non-object type by ID: simulator",
-                        "functionName": "level",
-                        "line": 24
+                        "durationMicroseconds": 66,
+                        "errorMessage": "Cannot load property AlignVLeft from QtObject.",
+                        "functionName": "alignment",
+                        "line": 30
                     },
                     {
                         "codegenSuccessful": false,
-                        "column": 41,
+                        "column": 28,
+                        "durationMicroseconds": 31,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: sim",
+                        "functionName": "onClicked",
+                        "line": 38
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 28,
                         "durationMicroseconds": 17,
-                        "errorMessage": "Cannot retrieve a non-object type by ID: simulator",
-                        "functionName": "status",
-                        "line": 26
+                        "errorMessage": "Cannot retrieve a non-object type by ID: sim",
+                        "functionName": "onClicked",
+                        "line": 43
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 24,
+                        "durationMicroseconds": 15,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: sim",
+                        "functionName": "value",
+                        "line": 50
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 24,
+                        "durationMicroseconds": 15,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: sim",
+                        "functionName": "value",
+                        "line": 55
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 23,
+                        "durationMicroseconds": 30,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: sim",
+                        "functionName": "text",
+                        "line": 65
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 24,
+                        "durationMicroseconds": 97,
+                        "errorMessage": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: QQuickMaterialStyle::accent with type QVariant (adjusted to QVariant) -> QColor stored as QVariant",
+                        "functionName": "color",
+                        "line": 67
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 36,
+                        "durationMicroseconds": 16,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: sim",
+                        "functionName": "value",
+                        "line": 75
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 54,
-                        "durationMicroseconds": 98,
+                        "column": 31,
+                        "durationMicroseconds": 49,
                         "errorMessage": "",
-                        "functionName": "horizontalCenter",
-                        "line": 28
+                        "functionName": "alignment",
+                        "line": 80
                     },
                     {
                         "codegenSuccessful": false,
-                        "column": 58,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Could not find signal \"clicked\".",
-                        "functionName": "onClicked",
-                        "line": 29
+                        "column": 44,
+                        "durationMicroseconds": 22,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: sim",
+                        "functionName": "percentage",
+                        "line": 81
                     },
                     {
                         "codegenSuccessful": false,
-                        "column": 57,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Could not find signal \"clicked\".",
-                        "functionName": "onClicked",
-                        "line": 30
+                        "column": 39,
+                        "durationMicroseconds": 14,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: sim",
+                        "functionName": "status",
+                        "line": 82
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 17,
+                        "durationMicroseconds": 18,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: sim",
+                        "functionName": "target",
+                        "line": 87
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 9,
+                        "durationMicroseconds": 22,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: sim",
+                        "functionName": "onSystemStatusChanged",
+                        "line": 88
                     }
                 ],
                 "filePath": "C:/Users/tessa/Documents/QEnergyMonitor/qml/Main.qml"

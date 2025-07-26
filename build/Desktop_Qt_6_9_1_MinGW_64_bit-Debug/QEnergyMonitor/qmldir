@@ -3,8 +3,8 @@ typeinfo appQEnergyMonitor.qmltypes
 prefer :/
 Main 1.0 qml/Main.qml
 VoltageGauge 1.0 qml/VoltageGauge.qml
-CurrentGauge 1.0 qml/CurrentGauge.qml
-AnimatedCounter 1.0 qml/AnimatedCounter.qml
+AmperageGauge 1.0 qml/AmperageGauge.qml
+EnergyCounter 1.0 qml/EnergyCounter.qml
 BatteryIndicator 1.0 qml/BatteryIndicator.qml
-SystemStatusIndicator 1.0 qml/SystemStatusIndicator.qml
+StatusIndicator 1.0 qml/StatusIndicator.qml
 

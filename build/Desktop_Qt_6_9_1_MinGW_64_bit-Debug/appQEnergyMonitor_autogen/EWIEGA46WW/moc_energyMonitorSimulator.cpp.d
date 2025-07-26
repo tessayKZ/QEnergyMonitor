@@ -1,6 +1,7 @@
 C:/Users/tessa/Documents/QEnergyMonitor/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/appQEnergyMonitor_autogen/EWIEGA46WW/moc_energyMonitorSimulator.cpp: C:/Users/tessa/Documents/QEnergyMonitor/energyMonitorSimulator.h \
   C:/Users/tessa/Documents/QEnergyMonitor/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/appQEnergyMonitor_autogen/moc_predefs.h \
   C:/Qt/6.9.1/mingw_64/include/QtCore/QObject \
+  C:/Qt/6.9.1/mingw_64/include/QtCore/QString \
   C:/Qt/6.9.1/mingw_64/include/QtCore/QTimer \
   C:/Qt/6.9.1/mingw_64/include/QtCore/q17memory.h \
   C:/Qt/6.9.1/mingw_64/include/QtCore/q20functional.h \

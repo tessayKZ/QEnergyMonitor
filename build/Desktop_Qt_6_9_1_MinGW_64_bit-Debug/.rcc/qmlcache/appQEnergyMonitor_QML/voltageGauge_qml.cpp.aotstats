@@ -5,59 +5,59 @@
                 "entries": [
                     {
                         "codegenSuccessful": true,
-                        "column": 17,
-                        "durationMicroseconds": 275,
+                        "column": 21,
+                        "durationMicroseconds": 355,
                         "errorMessage": "",
-                        "functionName": "radius",
-                        "line": 11
+                        "functionName": "onValueChanged",
+                        "line": 36
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 25,
+                        "durationMicroseconds": 148,
+                        "errorMessage": "",
+                        "functionName": "renderStrategy",
+                        "line": 12
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 18,
+                        "durationMicroseconds": 491,
+                        "errorMessage": "Cannot access value for name value",
+                        "functionName": "onPaint",
+                        "line": 13
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 23,
-                        "durationMicroseconds": 52,
+                        "durationMicroseconds": 69,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 9
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 20,
-                        "durationMicroseconds": 82,
-                        "errorMessage": "",
-                        "functionName": "width",
-                        "line": 14
-                    },
-                    {
-                        "codegenSuccessful": false,
-                        "column": 21,
-                        "durationMicroseconds": 59,
-                        "errorMessage": "Cannot access value for name value",
-                        "functionName": "height",
-                        "line": 15
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 29,
-                        "durationMicroseconds": 78,
-                        "errorMessage": "",
-                        "functionName": "bottom",
-                        "line": 16
+                        "line": 11
                     },
                     {
                         "codegenSuccessful": false,
                         "column": 15,
-                        "durationMicroseconds": 28,
+                        "durationMicroseconds": 35,
                         "errorMessage": "Cannot access value for name value",
                         "functionName": "text",
-                        "line": 23
+                        "line": 41
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 27,
-                        "durationMicroseconds": 35,
+                        "column": 35,
+                        "durationMicroseconds": 87,
                         "errorMessage": "",
-                        "functionName": "centerIn",
-                        "line": 22
+                        "functionName": "horizontalCenter",
+                        "line": 39
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 25,
+                        "durationMicroseconds": 71,
+                        "errorMessage": "",
+                        "functionName": "bottom",
+                        "line": 40
                     }
                 ],
                 "filePath": "C:/Users/tessa/Documents/QEnergyMonitor/qml/VoltageGauge.qml"

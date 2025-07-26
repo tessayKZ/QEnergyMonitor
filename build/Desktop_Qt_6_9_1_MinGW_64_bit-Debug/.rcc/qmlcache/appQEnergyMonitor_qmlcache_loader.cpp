@@ -19,14 +19,14 @@ namespace _qml_VoltageGauge_qml {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
-namespace _qml_CurrentGauge_qml { 
+namespace _qml_AmperageGauge_qml { 
     extern const unsigned char qmlData[];
     extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
     const QQmlPrivate::CachedQmlUnit unit = {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
-namespace _qml_AnimatedCounter_qml { 
+namespace _qml_EnergyCounter_qml { 
     extern const unsigned char qmlData[];
     extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
     const QQmlPrivate::CachedQmlUnit unit = {
@@ -40,7 +40,7 @@ namespace _qml_BatteryIndicator_qml {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
-namespace _qml_SystemStatusIndicator_qml { 
+namespace _qml_StatusIndicator_qml { 
     extern const unsigned char qmlData[];
     extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
     const QQmlPrivate::CachedQmlUnit unit = {
@@ -63,10 +63,10 @@ Q_GLOBAL_STATIC(Registry, unitRegistry)
 Registry::Registry() {
     resourcePathToCachedUnit.insert(QStringLiteral("/qml/Main.qml"), &QmlCacheGeneratedCode::_qml_Main_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qml/VoltageGauge.qml"), &QmlCacheGeneratedCode::_qml_VoltageGauge_qml::unit);
-    resourcePathToCachedUnit.insert(QStringLiteral("/qml/CurrentGauge.qml"), &QmlCacheGeneratedCode::_qml_CurrentGauge_qml::unit);
-    resourcePathToCachedUnit.insert(QStringLiteral("/qml/AnimatedCounter.qml"), &QmlCacheGeneratedCode::_qml_AnimatedCounter_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qml/AmperageGauge.qml"), &QmlCacheGeneratedCode::_qml_AmperageGauge_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qml/EnergyCounter.qml"), &QmlCacheGeneratedCode::_qml_EnergyCounter_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qml/BatteryIndicator.qml"), &QmlCacheGeneratedCode::_qml_BatteryIndicator_qml::unit);
-    resourcePathToCachedUnit.insert(QStringLiteral("/qml/SystemStatusIndicator.qml"), &QmlCacheGeneratedCode::_qml_SystemStatusIndicator_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qml/StatusIndicator.qml"), &QmlCacheGeneratedCode::_qml_StatusIndicator_qml::unit);
     QQmlPrivate::RegisterQmlUnitCacheHook registration;
     registration.structVersion = 0;
     registration.lookupCachedQmlUnit = &lookupCachedUnit;
