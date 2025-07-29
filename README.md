@@ -15,5 +15,5 @@ Android‑приложение на Qt/QML (компиляция под Android)
 
 1. **Клонируйте репозиторий**  
    ```bash
-   git clone https://github.com/yourusername/QEnergyMonitor.git
+   git clone https://github.com/tessayKZ/QEnergyMonitor.git
    cd QEnergyMonitor
